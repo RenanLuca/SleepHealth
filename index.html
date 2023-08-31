@@ -15,9 +15,19 @@
     </header>
     <main class="container">
         <section class="block-ask">
-            <ion-icon name="bed-outline"></ion-icon>
+            <div class="block-ask-title">
+                <h2>O que você sabe sobre seu sono?</h2>
+                <span>Nesta página esclareceremos algumas coisas a respeito dele...</span>
+            </div>
+            <div class="block-ask-banner">
+                <ion-icon name="bed-outline"></ion-icon>
+                <span>VS</span>
+                <ion-icon name="desktop-outline"></ion-icon>
+            </div>
+          <a href="#block-light"><button class="hover">Confira</button></a> 
         </section>
-        <section class="block-light block">
+        <hr id="hr-banner">
+        <section class="block-light block" id="block-light">
             <div class="block-light-question">
                 <h2>As luzes estão lhe prejudicando...</h2>
 
@@ -66,7 +76,7 @@
         </section>
         <hr>
         <section class="block-points block">
-            <div class="block-points-positive">
+            <div class="block-points-positive hover">
                 <div class="block-points-header">
                     <span>Benefícios</span>
                     
@@ -82,7 +92,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="block-points-negative">
+            <div class="block-points-negative hover">
                 <div class="block-points-header">
                     <span>Malefícios</span>  
                 </div>
@@ -98,8 +108,17 @@
                 </div>
             </div>
         </section>
+        <hr>
+        <section class="footer">
+            <h2>Envie-nos sua Mensagem!</h2>
+            <form action="" class="form-footer">
+                <input type="text" placeholder="Nome" name="name">
+                <input type="text" placeholder="Email" name="email">
+                <input type="text" placeholder="Digite sua Mensagem..." name="msg">
+            </form>
+            <input type="submit" value="Enviar" class="button hover">
+        </section>
     </main>
-
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
