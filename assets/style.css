@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+h2, span {
+    font-family: 'Trocchi', serif;
+}
+h2{
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 48px;
+}
+
+header{
+    width: 100%vw;
+    height: 110px;
+    background: rgb(1,95,150);
+    background: linear-gradient(180deg, rgba(1,95,150,1) 0%, rgba(53,171,241,1) 48%, rgba(182,225,251,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 3em;
+}
+hr{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+main.container {
+    background-color: #f0f2f5;
+    margin: 0px 10%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 4% 3% ;
+    position: relative;
+}
+
+
+.explain{
+    margin-top: 80px;
+    width: 1000px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 40px;
+    padding: 25px 25px 25px 15px;
+    font-size: 1.7em;
+    line-height: 32px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.block-cicle{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.block-points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.block-points-positive,.block-points-negative {
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+}
+.block-points-positive{
+    background-color: rgba(64, 168, 23, 0.2);
+    border: 2px solid rgba(64, 168, 23, 0.7);
+}
+.block-points-negative{
+    background-color: rgba(219, 64, 64, 0.2) ;
+    border: 2px solid rgba(219, 64, 64, 0.7);
+}
+.block-points-header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-points-header span {
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.block-points-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+}
+.block-points-content ul li{
+    margin: 20px 0px;
+}
