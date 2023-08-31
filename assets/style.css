@@ -11,9 +11,10 @@ h2{
     font-weight: normal;
     line-height: 48px;
 }
-
+body{
+    width: 100%vh;
+}
 header{
-    width: 100%vw;
     height: 110px;
     background: rgb(1,95,150);
     background: linear-gradient(180deg, rgba(1,95,150,1) 0%, rgba(53,171,241,1) 48%, rgba(182,225,251,1) 100%);
@@ -31,7 +32,7 @@ header h1 {
 }
 hr{
     width: 1200px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 #hr-banner{
     width: 800px;
@@ -39,12 +40,12 @@ hr{
 }
 
 .container {
+    width: 100%vh;
     background-color: #f0f2f5;
     margin: 0px 10%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 4% 3% ;
-    position: relative;
 }
 .block-ask {
     display: flex;
@@ -76,8 +77,8 @@ ion-icon{
 }
 .block-ask button{
     margin-top: 170px;
-    padding: 20px 30px;
-    width: 250px;
+    padding: 20px 25px;
+    width: 225px;
     border-radius: 40px;
     background-color: rgb(0, 162, 255);
     font-size: 2em;
@@ -98,7 +99,7 @@ ion-icon{
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.116);
     border-radius: 40px;
-    padding: 25px 25px 25px 15px;
+    padding: 25px 25px 27px 17px;
     font-size: 1.7em;
     line-height: 32px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -121,7 +122,7 @@ ion-icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 .block-points-positive,.block-points-negative {
     width: 400px;
@@ -158,6 +159,7 @@ ion-icon{
 }
 .block-points-content ul li{
     margin: 20px 0px;
+    font-size: 1.2em;
 }
 .footer{
     display: flex;
